@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewBag.Title = "Device-specific constants";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/css/DeviceSpecificConstants.css" rel="stylesheet" />
+
+<h2>
+    Device-specific constants
+</h2>
+<br>
+<ul id="mainList" class="list">
+    <li>
+        Generic
+        <ul>
+            <li data-name="GraceWindow">
+                Grace window : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+            </li>
+        </ul>
+    </li>
+    <li>
+        Hardware-specific
+        <ul>
+            <li>
+                Hardware Version : WM5E, WM5F, or WM5G
+                <ul>
+                    <li data-name="WM_SystemVoltage">
+                        System voltage : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                    <li data-name="WM_ADCscale">
+                        ADC scale : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                    <li data-name="WM_ReportScale">
+                        Report scale : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Default
+                <ul>
+                    <li data-name="Default_SystemVoltage">
+                        System voltage : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                    <li data-name="Default_ADCscale">
+                        ADC scale : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                    <li data-name="Default_ReportScale">
+                        Report scale : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        Software-specific
+        <ul>
+            <li>
+                Branch : "Master"
+                <ul>
+                    <li data-name="Master_MeasurementType">
+                        Measurement type : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                    <li data-name="Master_Units">
+                        Master units : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Branch : "Operator"
+                <ul>
+                    <li data-name="Operator_MeasurementType">
+                        Measurement type : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                    <li data-name="Operator_Units">
+                        Master units : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Branch : "Pressure"
+                <ul>
+                    <li data-name="Pressure_MeasurementType">
+                        Measurement type : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                    <li data-name="Pressure_Units">
+                        Master units : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Default
+                <ul>
+                    <li data-name="Default_MeasurementType">
+                        Measurement type : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                    <li data-name="Default_Units">
+                        Master units : <b data-type="data"></b> <img data-type="edit" title="edit" src="~/Content/svg/actions/edit.svg" class="icon" />
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<!--Modal-->
+<div class="modal fade" id="DSC-edit-form" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Edit</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">X</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <label data-type="name" class="col-form-label">New value</label>
+                            <input data-type="value" type="text" class="form-control">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button data-btn="Cancel" type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button data-btn="OK" type="button" class="btn btn-primary">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/DeviceSpecificConstants/render.js"></script>
+<script src="~/Scripts/DeviceSpecificConstants/event.js"></script>
+<script src="~/Scripts/DeviceSpecificConstants/modall.js"></script>
+<script src="~/Scripts/DeviceSpecificConstants/main.js"></script>

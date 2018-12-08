@@ -1,0 +1,6 @@
+﻿.container{
+    margin:0px;
+}
+.dataTables_length, .dataTables_info, .title, .dataTables_filter, .dataTables_paginate {
+    position: fixed;
+}

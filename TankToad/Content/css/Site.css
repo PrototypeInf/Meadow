@@ -1,0 +1,81 @@
+﻿body {
+    margin:5px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td{
+    padding:4px!important;
+}
+
+@media (pointer:coarse) {
+    body {
+        margin: 5px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    margin: 5px;
+    display:inline-block;
+}
+.iconBlock{
+    min-width:80px;
+}
+
+th.size-big, td.size-big {
+    min-width: 150px;
+    word-wrap: break-word;
+}
+th.size-norm, td.size-norm {
+    min-width: 100px;
+    word-wrap: break-word;
+}
+th.size-mega, td.size-mega {
+    min-width: 400px;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+div.dataTables_wrapper {
+    margin: 0 auto;
+}
+
+.dataTables_processing {
+    height: 60px !important;
+}
+
+table.dataTable tbody tr.selected {
+    background-color: #B0BED9;
+}
+
+.issues {
+    color: #dc3545;
+    font-size:18px;
+    font-weight:bold;
+} 
+
+.date-box{
+    max-width:440px;
+}

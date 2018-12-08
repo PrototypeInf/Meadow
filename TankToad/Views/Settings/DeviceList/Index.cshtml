@@ -1,0 +1,167 @@
+﻿
+@{
+    ViewBag.Title = "Device list";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="title">
+    Device list
+    <button id="btnAdd" type="button" class="btn btn-outline-success">Add</button>
+</h2>
+
+<div style="width:100%;  ">
+    <table id="mainTable" class="table table-striped table-bordered" style="width:100%"></table>
+</div>
+
+<!--Modal-->
+<div class="modal fade" id="DeviceList-edit-form" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Record</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">X</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <label class="col-form-label">Name:</label>
+                            <input name="Name" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">IMEI:</label>
+                            <input name="IMEI" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Cell number:</label>
+                            <input name="CellNumber" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">SIM type:</label>
+                            <input name="SIMtype" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">SIM number:</label>
+                            <input name="SIMnumber" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Hardware version:</label>
+                            <input name="HardwareVersion" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Firmware name:</label>
+                            <input name="FirmwareName" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Firmware branch:</label>
+                            <input name="FirmwareBranch" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Firmware commit:</label>
+                            <input name="FirmwareCommit" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Current assigned customer name:</label>
+                            <input name="CurrentAssignedCustomerName" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Status:</label>
+                            <select name="Status" class="form-control">
+                                <option value="active" selected>active</option>
+                                <option value="inactive">inactive</option>
+                                <option value="ignore">ignore</option>
+                                <option value="other">other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Current location latitude:</label>
+                            <input name="CurrentLocationLatitude" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Current location longitude:</label>
+                            <input name="CurrentLocationLongitude" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Current location time zone:</label>
+                            <input name="CurrentLocationTimeZone" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Operator:</label>
+                            <input name="Operator" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Signal quality:</label>
+                            <input name="SignalQuality" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Customer phone number:</label>
+                            <input name="CustomerPhoneNumber" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Gateway phone number:</label>
+                            <input name="GatewayPhoneNumber" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Water low level:</label>
+                            <input name="WaterLowLevel" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Water high level:</label>
+                            <input name="WaterHighLevel" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Battery low level:</label>
+                            <input name="BatteryLowLevel" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Battery shutdown level:</label>
+                            <input name="BatteryShutdownLevel" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Battery top level:</label>
+                            <input name="BatteryTopLevel" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Time of alert:</label>
+                            <input name="TimeOfAlert" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Sleep period:</label>
+                            <input name="SleepPeriod" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Number of sleep periods:</label>
+                            <input name="NumberOfSleepPeriods" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Energy mode:</label>
+                            <input name="EnergyMode" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Operation mode:</label>
+                            <input name="OperationMode" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Voltage feedback:</label>
+                            <input name="VoltageFeedback" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Notes about the device:</label>
+                            <input name="NotesAboutTheDevice" type="text" class="form-control">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button data-btn="Cancel" type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button data-btn="OK" type="button" class="btn btn-primary">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/DeviceList/render.js"></script>
+<script src="~/Scripts/DeviceList/event.js"></script>
+<script src="~/Scripts/DeviceList/main.js"></script>

@@ -1,0 +1,172 @@
+2018-10-04 23:14:20,229 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-04 23:14:22,194 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-04 23:14:22,344 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-04 23:14:22,692 [18] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-05 01:20:32,038 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-05 01:20:33,716 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-05 01:20:33,864 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-05 01:20:33,874 [8] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-05 15:18:03,493 [27] ERROR Rhino.Licensing.Discovery.DiscoveryClient [(null)] - Failed to publish application's presence
+System.Net.Sockets.SocketException (0x80004005): Сделана попытка выполнить операцию на сокете для недоступного хоста
+   в System.Net.Sockets.Socket.EndSendTo(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.Discovery.DiscoveryClient.<PublishMyPresence>d__8.MoveNext()
+2018-10-05 16:23:31,308 [13] ERROR Rhino.Licensing.Discovery.DiscoveryClient [(null)] - Failed to publish application's presence
+System.Net.Sockets.SocketException (0x80004005): Сделана попытка выполнить операцию на сокете для недоступного хоста
+   в System.Net.Sockets.Socket.EndSendTo(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.Discovery.DiscoveryClient.<PublishMyPresence>d__8.MoveNext()
+2018-10-06 00:04:41,126 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-06 00:04:42,810 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-06 00:04:42,978 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-06 00:04:42,992 [5] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-06 20:43:10,973 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-06 20:43:12,858 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-06 20:43:13,028 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-06 20:43:13,040 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-07 21:08:18,959 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-07 21:08:20,826 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-07 21:08:21,027 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-07 21:08:21,051 [7] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-07 22:50:09,812 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-07 22:50:11,621 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-07 22:50:11,782 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-07 22:50:11,795 [8] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-07 23:40:20,650 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-07 23:40:22,382 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-07 23:40:22,555 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-07 23:40:22,568 [7] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-08 01:18:01,700 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-08 01:18:03,539 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-08 01:18:03,716 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-08 01:18:03,730 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-08 01:33:14,913 [24] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: time.nist.gov
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:33:26,184 [19] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: time-nw.nist.gov
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:33:37,438 [3] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: time-a.nist.gov
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:33:48,693 [21] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: time-b.nist.gov
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:33:59,948 [19] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: time-a.timefreq.bldrdoc.gov
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:34:11,202 [21] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: time-b.timefreq.bldrdoc.gov
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:34:22,457 [38] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: time-c.timefreq.bldrdoc.gov
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:34:33,713 [8] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: utcnist.colorado.edu
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:34:44,968 [19] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: nist1.datum.com
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:34:56,223 [19] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: nist1.dc.certifiedtime.com
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:34:56,224 [8] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: nist1.nyc.certifiedtime.com
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-08 01:34:56,224 [8] DEBUG Rhino.Licensing.SntpClient [(null)] - Could not get time from: nist1.sjc.certifiedtime.com
+System.Net.Sockets.SocketException (0x80004005): Этот хост неизвестен
+   в System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   в System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rhino.Licensing.SntpClient.<GetDateAsync>d__9.MoveNext()
+2018-10-12 00:15:39,233 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-12 00:15:41,674 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-12 00:15:41,817 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-12 00:15:41,833 [8] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-12 00:16:06,882 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-12 00:16:08,672 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-12 00:16:08,807 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-12 00:16:08,820 [7] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-12 01:31:49,633 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-12 01:31:51,846 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-12 01:31:51,983 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-12 01:31:51,996 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2018-10-12 03:35:37,448 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 5029
+2018-10-12 03:35:39,294 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 11/05/2018 00:00:00
+2018-10-12 03:35:39,430 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for EntityFramework Profiler
+2018-10-12 03:35:39,444 [8] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...

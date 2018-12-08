@@ -1,0 +1,18 @@
+﻿.list{
+    font-size:24px;
+}
+.icon {
+    display: none;
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+}
+@media (pointer:coarse) {
+    .icon {
+        display: normal;
+        opacity: .4;
+        width: 24px;
+        height: 24px;
+        margin: 0px;
+    }
+}
